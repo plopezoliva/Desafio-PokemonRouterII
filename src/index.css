@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.active{
+color: yellow;
+
+}
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  
+
+
+}
+.contenedor-titulo{
+
+  padding-top: 40px;
+
+}
+h1{
+  padding-top: 80px;
+}
+.row{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+
+.rowselec{
+  width: 50%;
+  margin: auto;
+  
+}
+
+.select-text{
+  text-align: center;
+}
+@media only screen and(max-width:768px){
+  .service_item span div{
+    font-size:1.5rem;
+    padding:5px;
+  }
+}
+.boton{
+  padding-top: 40px;
+}
+.link{
+  display: flex;
+  flex-direction: row;
+  
+}
+.linkHome{
+  margin-right: 10px;
+}
